@@ -1,1 +1,1 @@
-# artgallery
+# Aivazovsky Art Gallery
