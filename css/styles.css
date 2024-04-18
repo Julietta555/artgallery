@@ -1,0 +1,379 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(180deg, #99CCCC 0.03%, #CCCCFF 100%);;
+	
+	background-repeat: repeat-y;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+}
+
+.box{
+	border: 1px solid #000;
+	border-radius: 0px;
+	padding: 20px 40px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+  }
+
+
+  /*index*/
+  .header{
+    margin: auto;
+	text-align: center;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.h2{
+    font-size: 95px;
+	width: 1000px;
+	margin: 0;
+	margin-top: 45px;
+	transition: all 0.7s;
+	font-family: 'Marck Script', cursive;
+	margin-left: auto;
+    margin-right: auto;
+
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2:hover{
+	color:#6699FF;
+}
+
+/*Убираем маркер в маркированном списке*/
+.item_head{
+    list-style-type: none;
+}
+
+.list_head{
+	min-height: 50px;
+	font-size: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 500;
+}
+
+.link_head{
+	padding-inline-start: 185px;
+}
+
+.link_head:hover{
+	color:#6699FF;
+}
+
+.linear{
+    border: none; /* Убираем границу */
+    background-color: #000; /* Цвет линии */
+    color: #000; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    margin-left: 150px;
+	margin-right: 150px;
+}
+
+.conteiner{
+    margin-left: 200px;
+	margin-right: 200px;
+}
+
+.container{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Установить промежуток между текстами*/
+.item{
+	margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+/*Перенос текста справа от картин*/
+.item_box{
+    display: flex;
+    text-align: left;
+    vertical-align: top; 
+}
+
+/*Перенос текста справа от картин, включая и название, и само содержание*/
+.item_box1{
+	margin-left: 50px;
+	margin-top: 0px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.link_item{
+    font-size: 22px;
+	font-weight: 500;
+	transition: all 0.7s;
+    vertical-align: bottom;
+    text-align: left;
+    vertical-align: top; 
+}
+
+.link_item:hover{
+	transform: scale(1.05);
+}
+
+.link_item_title{
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	transition: all 0.7s;
+	font-weight: bold;
+    text-align: left;
+    vertical-align: top; 
+	margin: 0;
+}
+
+.link_item_description{
+    font-weight: 500;
+	font-size: 17px;
+	transition: all 0.7s;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.title{
+    text-align: left;
+    vertical-align: top; 
+	margin: 0;
+}
+
+.image{
+	width: 210px;
+	width: 210px;
+	transition: all 0.7s;
+}
+
+
+/*artist*/
+.artist{
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.artist-box{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.artist__photo{
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+
+.artist-title{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	margin-top: 40px;
+}
+
+.artist-description{
+	text-align:justify;
+	margin-bottom: 5px;
+}
+
+.artist-subtitle{
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+
+.picture {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-angle-right {
+    padding-left: 50px;
+    font: normal 80%/120% 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.fa-angle-left {
+    padding-right: 50px;
+    font: normal 80%/120% 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    
+    
+    
+}
+.fas {
+    color: #000000;
+    
+}
+.fas:hover {
+    opacity: 0.5;
+    color: #6699FF;
+}
+
+
+
+.artwork{
+	margin-bottom: 50px;
+}
+
+/*Расстояние рядом с картиной на отдельном сайте*/
+.artwork-innerbox{
+	padding: 70px 70px;
+}
+
+.artwork__image{
+	margin-bottom: 50px;
+	max-width: 1120px;
+	max-height: 600px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+/*
+.artwork__title{
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+	cursor: pointer;
+}*/
+
+/*Настройки картины*/
+.artwork-image-photo{
+	max-width: 870px;
+	max-height: 600px;
+	text-align: center
+}
+
+/*Настройки описания картины*/
+.artwork__description{
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+/*Настройка кнопок 1,2,3 и т.д.*/
+.artwork-pages{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+/*Настройка кружков вокруг кнопок*/
+.artwork-page{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #000;
+	background-color: #CCCCFF;
+	border-radius: 50%;
+	position: relative;
+	transition: all 0.5s;
+}
+
+/*Затемнение кнопок*/
+.artwork-page:hover{
+	background-color: #000;
+}
+
+/*Установка цифр по центру кнопки*/
+.artwork-pagelink{
+	position: absolute;
+	border-radius: 50%;
+	padding: 10px;
+	color: #000;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);	
+	transition: all 0.5s;
+}
+
+.artwork-pagelink:hover{
+	color: #CCCCFF;
+}
+
+/*Установка расположения 9 картин*/
+.gallery{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.gallery-box{
+	padding: 0px 25px 0 25px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.gallery-link{
+	padding: 0 30px;
+	margin-bottom: 35px;
+	transition: all 0.5s;
+}
+
+.gallery-link:hover{
+	transform: scale(1.05);
+}
+
+.footer{
+	margin-bottom: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.footer__box{
+	min-height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: 500;
+}
+
+
+
+.picture__row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.picture__name {
+    font-weight: 700;
+    
+    font-size: 22px;
+}
+.picture__menu {
+
+    display: flex;
+    
+    align-items: center;}
